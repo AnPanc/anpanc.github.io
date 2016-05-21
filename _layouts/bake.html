@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+
+    <header id="top" class="header" style="background-image: url({{ site.baseurl }}/img/{{ page.image }})">
+      <div class="text-vertical-center">
+        <h1>{{ page.title }}</h1>
+        <h3>{{ content }}</h3>
+      </div>
+    </header>
+
+    {% include ingredients.html %}
+    {% include allergen.html %}
+
+    {% include footer.html %}
+    {% include scripts.html %}
+
+  </body>
+
+</html>

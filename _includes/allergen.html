@@ -1,0 +1,17 @@
+<section id="suppliers" class="suppliers">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3>Allergen Information</h3>
+        {% for allergen in page.allergen %}
+          {% if allergen.contains == true %}
+            <p>Contains {{ allergen.name }} <i class="fa fa-check-square-o" aria-hidden="true" style="color:green"></i></p>
+          {% else %}
+            <p>Contains {{ allergen.name }} <i class="fa fa-times" aria-hidden="true" style="color:red"></i></p>
+          {% endif %}
+        {% endfor %}
+        <p>Please note: Our products are all created in the same kitchen. This means that all of them may contain traces of flour, eggs, dairy or nuts.</p>
+      </div>
+    </div>
+  </div>
+</section>

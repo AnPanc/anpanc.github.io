@@ -1,0 +1,26 @@
+# Site settings
+title: An Panc Patisserie
+email: helenohagan55@gmail.com
+description: >
+  Creative Cakes & Quirky Bakes
+baseurl: ""
+url: "http://marketsquare.github.io/"
+
+# User setting
+owner: Helen O'Hagan
+email: helenohagan55@gmail.com
+facebook_username: AnPancPatisserie
+twitter_username: pabens
+github_username: marketsquare
+address:
+  - line: Gortahork
+  - line: Donegal
+  - line: Ireland
+telephone: +353 (87) 398 9812
+copyright: Helen O'Hagan
+
+# API settings
+google_api_key: AIzaSyAzghuPk263vISYYxSL7z_P38C0LkYxCd0
+
+# Build settings
+markdown: kramdown
