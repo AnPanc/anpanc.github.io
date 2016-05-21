@@ -1,6 +1,6 @@
 # An Panc Patisserie
 
-This is the An Panc Patisserie Jeykll Github Pages site.
+This is the [An Panc Patisserie](http://anpanc.github.io/) Jeykll Github Pages site.
 
 
 # Credit
@@ -13,4 +13,4 @@ A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/tem
 
 ## Bootsnipp Multi Level Dropdown
 
-http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3
+[multi-level-dropdown-menu](http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3)
