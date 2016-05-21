@@ -1,9 +1,8 @@
-<div class="container-fluid">
-  <div class="col-lg-12 text-center">
+<div class="container menuprices">
+  <div class="col-lg-12 text-center menuprices">
   <h3>Menu &amp; Prices</h3>
   <p>Prices shown are for large orders and minimum quantities may apply</p>
   {% for post in site.posts %}
-    {% cycle 'add row' : '<div class="row">', nil, nil %}
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -19,6 +18,6 @@
           </div>
         </div>
       </div>
-    {% cycle 'end row' : nil, nil, '</div>' %}
   {% endfor %}
+  </div>
 </div>

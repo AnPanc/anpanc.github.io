@@ -88,11 +88,18 @@ hr.small {
     padding: 50px 0;
 }
 
+/* Menu and Prices */
+
+.menuprices {
+    background-color: #fff;
+}
+
 /* Coffeee and Cake */
 
 .coffeeandcake {
     padding: 50px 0;
     background-color: #996633;
+    color: #fff;
 }
 
 .coffeeandcake-item {
