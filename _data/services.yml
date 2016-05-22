@@ -1,0 +1,15 @@
+- name: Sweet Treats
+  description: Be tempted by our selection of freshly baked cakes, tarts and tray bakes.
+  icon: fa-cutlery
+
+- name: Tea &amp; Coffee
+  description: Enjoy a Nespresso Coffee or try one of our Suki Teas.
+  icon: fa-coffee
+
+- name: Free things!
+  description: Lots of gluten and dairy free options available.
+  icon: fa-exclamation-triangle
+
+- name: Special Events
+  description: Birthdays, parties or just Sunday dinner; our outside catering menu suits every occasion.
+  icon: fa-birthday-cake
