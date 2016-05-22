@@ -94,16 +94,16 @@ hr.small {
     background-color: #fff;
 }
 
-/* Coffeee and Cake */
+/* Services */
 
-.coffeeandcake {
+.services {
     padding: 50px 0;
     background-color: #996633;
     color: #fff;
 }
 
-.coffeeandcake-item {
-    margin-bottom: 30px;
+.services-icon {
+   color: #996633;
 }
 
 /* bakes */

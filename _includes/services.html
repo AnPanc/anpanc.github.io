@@ -1,25 +1,22 @@
-<section id="coffeeandcake">
+<section id="services" class="services">
   <!-- Uses Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-  <div class="container coffeeandcake bg-primary">
-    <div class="row text-center">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <h2>Call in or get in touch for...</h2>
-        <ul>
-        <!-- 4 on laptop, 2 on tablet, 1 on phone -->
-        {% for service in site.data.services %}
-          <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa {{ service.icon }} fa-stack-1x text-primary" style="color:#996633"></i>
-            </span>
-            <h4><strong>{{ service.name }}</strong></h4>
-            <p>{{ service.description }}</p>
-          </div>
-        {% endfor %}
-        </ul>
-      </div>
+  <div class="container services">
+    <div class="col-lg-12 text-center services">
+      <h2>Call in or get in touch for...</h2>
+      <ul>
+      <!-- 4 on laptop, 2 on tablet, 1 on phone -->
+      {% for service in site.data.services %}
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa {{ service.icon }} fa-stack-1x services-icon"></i>
+          </span>
+          <h4><strong>{{ service.name }}</strong></h4>
+          <p>{{ service.description }}</p>
+        </div>
+      {% endfor %}
+      </ul>
     </div>
-    <!-- /.row -->
   </div>
   <!-- /.container -->
 </section>
