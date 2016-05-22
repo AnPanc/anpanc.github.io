@@ -19,4 +19,4 @@ ingredients:
   - name: "Consectetur"
     quantity: "2 Sticks"
 ---
-Chocolate and gigner cookies. Minimum order of 20.
+Chocolate and Ginger Cookies. Minimum order of 20.
