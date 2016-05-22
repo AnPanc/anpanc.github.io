@@ -7,17 +7,21 @@ image: caramelsquares.jpg
 quantity: 20
 price: €22.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: false
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
-
+  - name: "Self Raising Flour"
+  - name: "Butter"
+  - name: "Sugar"
+  - name: "Eggs"
+  - name: "Condensed Milk"
+  - name: "Golden Syrup"
+  - name: "Dark Chocolate"
 ---
-Caramel squares.
+[A buttery biscuit base](https://www.youtube.com/watch?v=GkkEO7hzALY) with a homemade caramel layer covered in dark chocolate.

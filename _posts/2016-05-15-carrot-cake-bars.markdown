@@ -7,16 +7,29 @@ image: carrotcakebars.jpg
 quantity: 10
 price: €12.50
 allergen:
-  - name: "Flour"
-    contains: true
+  - name: "Gluten"
+    contains: false
   - name: "Dairy"
+    contains: false
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
     contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Soya Spread"
+  - name: "Muscovado Sugar"
+  - name: "Eggs"
+  - name: "Ground Almonds"
+  - name: "Gluten Free Flour"
+  - name: "Baking Powder"
+  - name: "Ground Nutmeg"
+  - name: "Cinnamon"
+  - name: "Carrots"
+  - name: "Orange Zest"
+  - name: "Sultanas"
+  - name: "Mixed Peel"
+  - name: "Walnuts"
+  - name: "Pecans"
+  - name: "Icing Sugar"
 ---
-Gluten and dairy free. Packed with mixed fruit, ground almonds and locally grown carrot. Flavoured with a cinnamon, orange and nutmeg syrup. Topped with a spiced citrus icing and toasted walnuts or pecans.
+Packed with mixed fruit, ground almonds and locally sourced carrots. Flavoured with a cinnamon, orange and nutmeg syrup. Topped with a spiced citrus icing and toasted walnuts and pecans.

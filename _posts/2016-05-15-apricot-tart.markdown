@@ -1,9 +1,9 @@
 ---
 layout: bake
-title:  "Cherry Bakewell Tart"
+title:  "Apricot Tart"
 date:   2016-05-15 17:22:23 +0000
-categories: Tarts
-image: cherrybakewelltart.jpg
+categories: Tarts Frangipan
+image: placeholder.jpg
 quantity: 1
 price: €25.00
 allergen:
@@ -16,11 +16,14 @@ allergen:
   - name: "Nuts"
     contains: true
 ingredients:
-  - name: "Butter"
   - name: "Sugar"
-  - name: "Eggs"
+  - name: "Butter"
   - name: "Plain Flour"
+  - name: "Eggs"
   - name: "Ground Almonds"
-  - name: "Kirsch Cherries"
+  - name: "Vanilla"
+  - name: "Fresh Apricots"
+  - name: "Apricot Jam"
+  - name: "Lemons"
 ---
-Sweet sable pastry case baked with frangipan and studded with kirsch cherries.
+Sweet sable pastry and frangipan tart filled with summer apricots and glazed with apricot jam.

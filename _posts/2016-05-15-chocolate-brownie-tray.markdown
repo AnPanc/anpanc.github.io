@@ -7,16 +7,21 @@ image: chocolatebrownie.jpg
 quantity: 20
 price: €30
 allergen:
-  - name: "Flour"
-    contains: true
+  - name: "Gluten"
+    contains: false
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Gluten Free Flour"
+  - name: "Butter"
+  - name: "Dark Chocolate"
+  - name: "Sugar"
+  - name: "Eggs"
+  - name: "Pecans"
+  - name: "Walnuts"
 ---
-Chocolate and nut brownies.
+Squidgy chocolate, pecan and walnut brownies with a sweet sugary top crust.

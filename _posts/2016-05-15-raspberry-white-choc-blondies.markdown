@@ -4,19 +4,24 @@ title:  "Raspberry &amp; White Chocolate Blondies"
 date:   2016-05-15 17:22:23 +0000
 categories: Traybakes
 image: raspberrywhitechocblondies.jpg
-quantity: 10
-price: €12.50
+quantity: 1
+price: €1.25
 allergen:
-  - name: "Flour"
-    contains: true
+  - name: "Gluten"
+    contains: false
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "White Chocolate"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Sugar"
+  - name: "Orange Zest"
+  - name: "Raspberries"
+  - name: "Gluten Free Flour"
 ---
-Raspberry and white chocolate blondies.
+A different shade of Brownie. White chocolate and raspberries everywhere.

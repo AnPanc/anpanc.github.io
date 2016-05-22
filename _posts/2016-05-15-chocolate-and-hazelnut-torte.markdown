@@ -7,16 +7,23 @@ image: chocolatehazelnut.jpg
 quantity: 1
 price: €25.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Dark Chocolate"
+  - name: "Butter"
+  - name: "Caster Sugar"
+  - name: "Eggs"
+  - name: "Vanilla"
+  - name: "Ground Almonds"
+  - name: "White Breadcrumbs"
+  - name: "Orange Zest"
+  - name: "Hazelnuts"
 ---
 A rich chocolate and hazelnut cake made using 70% cocoa solids topped with a chocolate ganache, hazelnut caramel shards and spun sugar.

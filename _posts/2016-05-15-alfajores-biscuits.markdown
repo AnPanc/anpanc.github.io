@@ -7,17 +7,21 @@ image: alfajoresbiscuits.jpg
 quantity: 1
 price: €0.50
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
-
+  - name: "Sugar"
+  - name: "Butter"
+  - name: "Plain Flour"
+  - name: "Eggs"
+  - name: "Condensed Milk"
+  - name: "Desiccated Coconut"
+  - name: "Cinnamon"
 ---
-Alfajores Biscuits. Minimum order of 20.
+Sweet Spanish biscuits filled with Dulche Deleche and rolled in Coconut.
