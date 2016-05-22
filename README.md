@@ -14,3 +14,7 @@ A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/tem
 ## Bootsnipp Multi Level Dropdown
 
 [multi-level-dropdown-menu](http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3)
+
+## Font Awesome
+
+[Font Awesome Examples](http://fontawesome.io/examples/)
