@@ -154,25 +154,6 @@ footer {
     padding: 100px 0;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-/* Map - disable custom maps scrolling behaviour*/
-.scrolloff {
-    pointer-events: none;
-}
-
-
-
 /* Menus and Submenus */
 /* http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3 */
 
