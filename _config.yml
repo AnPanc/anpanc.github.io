@@ -18,8 +18,11 @@ address:
 telephone: +353 (87) 398 9812
 copyright: Helen O'Hagan
 
-# API settings
+# Google Maps API
 google_api_key: AIzaSyAzghuPk263vISYYxSL7z_P38C0LkYxCd0
+
+# Google Analytics
+google_tracking_id: UA-78122891-1
 
 # Build settings
 markdown: kramdown
