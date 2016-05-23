@@ -26,4 +26,4 @@ ingredients:
   - name: "Lemon Juice"
   - name: "Vanilla"
 ---
-Classic French dessert. Sweet pastry cake filled with almond frangipan. Decorated with fanned golden delicious apples and glazed with apricot jam.
+Classic French dessert. Sweet pastry case filled with almond frangipan. Decorated with fanned golden delicious apples and glazed with apricot jam.

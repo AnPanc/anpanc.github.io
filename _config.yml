@@ -29,3 +29,8 @@ markdown: kramdown
 
 # exclude vendor for travis
 exclude: [vendor]
+
+# gems - for sitemap
+gems:
+  - jekyll-sitemap
+  
