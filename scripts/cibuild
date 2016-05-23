@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# CI build used by Travis
+# assumes bundler has installed Gemfile
+
+jekyll build
+htmlproofer ./_site
