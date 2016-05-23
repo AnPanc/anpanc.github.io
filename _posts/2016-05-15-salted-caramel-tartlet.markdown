@@ -1,11 +1,11 @@
 ---
 layout: bake
-title:  "Lemon Tart"
+title:  "Salted Caramel Tartlets"
 date:   2016-05-15 17:22:23 +0000
 categories: Tarts
-image: placeholder.jpg
+image: saltedcarameltart.jpg
 quantity: 1
-price: €20.00
+price: €2.25
 allergen:
   - name: "Gluten"
     contains: true
@@ -20,9 +20,10 @@ ingredients:
   - name: "Plain Flour"
   - name: "Butter"
   - name: "Eggs"
+  - name: "Condensed Milk"
+  - name: "Golden Syrup"
   - name: "Cream"
-  - name: "Lemons"
-  - name: "Vanilla"
-  - name: "Cornflour"
+  - name: "Honey"
+  - name: "Chocolate"
 ---
-A sweet sable pastry base filled with a lip smacking lemon curd and baked in the oven until set.
+Sweet sable pastry case filled with a salted caramel sauce and topped with chocolate ganache and a tempered chocolate decoration.

@@ -7,19 +7,22 @@ image: chocolatebiscotti.jpg
 quantity: 1
 price: €0.50
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Orange"
+  - name: "Dark Chocolate"
+  - name: "Ground Almonds"
+  - name: "Hazelnuts"
 ---
-Chocolate dipped Biscotti.
-
-Large ones for €0.50, minimum order 20.
-Small ones for €0.20, minimum order 50.
+Italian biscuits best served and dipped in espresso coffee. Flavoured with chocolate, hazelnuts and orange zest.

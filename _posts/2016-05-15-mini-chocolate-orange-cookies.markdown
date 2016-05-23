@@ -7,16 +7,21 @@ image: chocolateorangecookies.jpg
 quantity: 1
 price: €0.10
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Brown Sugar"
+  - name: "Eggs"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Vanilla"
+  - name: "Milk Chocolate"
+  - name: "Orange Zest"
 ---
-Mini Chocolate and orange cookies. Minimum order of 50.
+Perfect mini accompaniment with a hot beverage to fulfil that urge. Sweet cookies flavoured with milk chocolate, orange zest and vanilla.

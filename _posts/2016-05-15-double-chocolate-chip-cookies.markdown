@@ -7,16 +7,21 @@ image: chocolatechipcookies.jpg
 quantity: 1
 price: €0.50
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Dark Chocolate"
+  - name: "White Chocolate"
+  - name: "Cocoa Powder"
 ---
-Double Chocolate Chip Cookies. Minimum order of 20.
+Chocolate dipped sable biscuits garnished with white chocolate shavings.

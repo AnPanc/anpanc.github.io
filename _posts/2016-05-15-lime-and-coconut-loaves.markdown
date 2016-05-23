@@ -7,16 +7,21 @@ image: limecoconutloaves.jpg
 quantity: 15
 price: €25.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Butter"
+  - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Eggs"
+  - name: "Desiccated coconut"
+  - name: "Vanilla"
+  - name: "Yoghurt"
 ---
-Mini lime and coconut loaves.
+Miniature sticky sweet loaves flavoured with lime and coconut and soaked in a lime vanilla syrup.

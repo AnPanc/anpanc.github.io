@@ -7,16 +7,24 @@ image: lemonpolenta.jpg
 quantity: 1
 price: €25.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Butter"
+  - name: "Polenta"
+  - name: "Sugar"
+  - name: "Eggs"
+  - name: "Ground Almonds"
+  - name: "Yoghurt"
+  - name: "Vanilla"
+  - name: "Lemons"
+  - name: "Blueberries"
+  - name: "Baking Powder"
 ---
-Gluten free cake using fine polenta, ground almonds and blueberries. Soaked in a lemon and vanilla syrup.
+An Italian inspired lemon cake using fine polenta and ground almonds as a flour substitute. Packed with fresh blueberries and soaked in a tart lemon and vanilla syrup.

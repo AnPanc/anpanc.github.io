@@ -7,16 +7,22 @@ image: raspberryalmondsquares.jpg
 quantity: 15
 price: €25.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Ground Almonds"
+  - name: "Raspberries"
+  - name: "Flaked Almonds"
+  - name: "Apricot Jam"
 ---
-Raspberry and almond squares.
+A buttery biscuit base layered with raspberry jam and almond frangipan. Studded with fresh raspberries, glazed with apricot jam ad garnished with toasted flaked almonds.

@@ -7,16 +7,18 @@ image: placeholder.jpg
 quantity: 1
 price: €15.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Sugar"
+  - name: "Eggs"
+  - name: "Cornflour"
+  - name: "Raspberries"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Fresh raspberries are folded through this meringue giving it a crunchy outer layer and a soft raspberry flavoured centre. An easy dessert option; just add cream and fruit of your choice.

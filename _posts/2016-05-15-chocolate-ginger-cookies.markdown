@@ -7,16 +7,21 @@ image: chocolategingercookies.jpg
 quantity: 1
 price: €0.75
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: false
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Crystallized Ginger"
+  - name: "Dark Chocolate"
+  - name: "Cocoa Powder"
 ---
-Chocolate and Ginger Cookies. Minimum order of 20.
+Chocolate sable biscuits studded with chocolate chunks and garnished with crystallized ginger.

@@ -2,7 +2,7 @@
 layout: bake
 title:  "Chocolate Cherry Roulade"
 date:   2016-05-15 17:22:23 +0000
-categories: Meringues
+categories: Cakes
 image: placeholder.jpg
 quantity: 1
 price: €15.00

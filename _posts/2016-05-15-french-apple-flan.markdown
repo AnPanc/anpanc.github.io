@@ -7,16 +7,23 @@ image: frenchappleflan.jpg
 quantity: 1
 price: €25.00
 allergen:
-  - name: "Flour"
+  - name: "Gluten"
     contains: true
   - name: "Dairy"
     contains: true
+  - name: "Eggs"
+    contains: true
+  - name: "Nuts"
+    contains: true
 ingredients:
-  - name: "Lorem ipsum"
-    quantity: "100g"
-  - name: "Dolor sit amet"
-    quantity: "75g"
-  - name: "Consectetur"
-    quantity: "2 Sticks"
+  - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Ground Almonds"
+  - name: "Apples"
+  - name: "Apricot Jam"
+  - name: "Lemon Juice"
+  - name: "Vanilla"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Classic French dessert. Sweet pastry cake filled with almond frangipan. Decorated with fanned golden delicious apples and glazed with apricot jam.
