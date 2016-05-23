@@ -2,10 +2,14 @@
 
 This is the [An Panc Patisserie](http://anpanc.github.io/) Jeykll Github Pages site.
 
+# Travis CI
+
+[![Build Status](https://travis-ci.org/AnPanc/anpanc.github.io.svg?branch=master)](https://travis-ci.org/AnPanc/anpanc.github.io)
+
 
 # Credit
 
-Thanks to.....
+Inspiration from and thanks to.....
 
 ## Stylish Portolio template for Jekyll
 
