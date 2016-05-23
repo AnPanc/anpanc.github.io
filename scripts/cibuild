@@ -3,4 +3,4 @@
 # assumes bundler has installed Gemfile
 
 jekyll build
-htmlproofer ./_site
+htmlproofer ./_site --allow-hash-href
