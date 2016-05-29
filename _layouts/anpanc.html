@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# restaurant: http://ogp.me/ns/restaurant# place: http://ogp.me/ns/place#">
     {% include generic-headers.html %}
     {% include stylesheets.html %}
 
     <!-- OpenGraph and Facebook Tags -->
     <meta property="fb:app_id"                              content="{{ site.facebook_appId }}" />
     <meta property="og:url"                                 content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:type"                                content="restaurant.menu" />
+    <meta property="og:type"                                content="website" />
     <meta property="og:title"                               content="{{ site.restaurant_name }}" />
     <meta property="og:description"                         content="{{ site.description }}" />
     <meta property="og:image"                               content="{{ site.url }}/img/home.jpg" />
