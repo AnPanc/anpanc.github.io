@@ -6,6 +6,7 @@ baseurl: ""
 url: "http://anpanc.github.io"
 
 # User setting
+restaurant_name: AnPanc
 owner: Helen O'Hagan
 email: helenohagan55@gmail.com
 facebook_username: AnPancPatisserie
