@@ -3,7 +3,7 @@ layout: bake
 title:  "Apricot Tart"
 date:   2016-05-15 17:22:23 +0000
 categories: Tarts Frangipan
-image: placeholder.jpg
+image: apricottart.jpg
 quantity: 1
 price: €25.00
 allergen:

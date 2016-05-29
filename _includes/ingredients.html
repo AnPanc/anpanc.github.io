@@ -1,12 +1,8 @@
 <section id="ingredients" class="ingredients">
-  <div class="container ingredients">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-        <h3>Ingredients</h3>
-        {% for ingredient in page.ingredients %}
-          <li>{{ ingredient.name }}</li>
-        {% endfor %}
-      </div>
-    </div>
+  <div class="container ingredients col-sm-12 text-center">
+    <h3>Ingredients</h3>
+    {% for ingredient in page.ingredients %}
+      <li>{{ ingredient.name }}</li>
+    {% endfor %}
   </div>
 </section>

@@ -3,7 +3,7 @@ layout: bake
 title:  "Strawberry Tartlets"
 date:   2016-05-15 17:22:23 +0000
 categories: Tarts
-image: strawberrytartlet.jpg
+image: strawberrytartlet2.jpg
 quantity: 1
 price: €2.25
 allergen:

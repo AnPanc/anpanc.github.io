@@ -3,7 +3,7 @@ layout: bake
 title:  "Lemon Tart"
 date:   2016-05-15 17:22:23 +0000
 categories: Tarts
-image: placeholder.jpg
+image: lemontart.jpg
 quantity: 1
 price: €20.00
 allergen:

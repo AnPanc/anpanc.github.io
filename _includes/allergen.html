@@ -1,17 +1,13 @@
 <section id="allergen" class="allergen">
-  <div class="container allergen">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-        <h3>Allergen Information</h3>
-        {% for allergen in page.allergen %}
-          {% if allergen.contains == true %}
-            <p>Contains {{ allergen.name }} <i class="fa fa-check-square-o" aria-hidden="true" style="color:green"></i></p>
-          {% else %}
-            <p>Contains {{ allergen.name }} <i class="fa fa-times" aria-hidden="true" style="color:red"></i></p>
-          {% endif %}
-        {% endfor %}
-        <p><small><i class="fa fa-exclamation-triangle"></i> Our products are all created in the same kitchen. This means that all of them may contain traces of gluten, eggs, dairy or nuts.</small></p>
-      </div>
-    </div>
+  <div class="container allergen col-sm-12 text-center">
+    <h3>Allergen Information</h3>
+    {% for allergen in page.allergen %}
+      {% if allergen.contains == true %}
+        <p>Contains {{ allergen.name }} <i class="fa fa-check-square-o" aria-hidden="true" style="color:green"></i></p>
+      {% else %}
+        <p>Contains {{ allergen.name }} <i class="fa fa-times" aria-hidden="true" style="color:red"></i></p>
+      {% endif %}
+    {% endfor %}
+    <p><small><i class="fa fa-exclamation-triangle"></i> Our products are all created in the same kitchen. This means that all of them may contain traces of gluten, eggs, dairy or nuts.</small></p>
   </div>
 </section>
