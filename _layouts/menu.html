@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head-page.html %}
+  <head>
+    {% include generic-headers.html %}
+    {% include stylesheets.html %}
+
+    <!-- OpenGraph Tags -->
+    <meta property="fb:app_id"              content="{{ site.facebook_appId }}" />
+    <meta property="og:url"                 content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:type"                content="restaurant.menu" />
+    <meta property="og:title"               content="{{ site.title }}" />
+    <meta property="og:description"         content="{{ site.description }}" />
+    <meta property="og:image"               content="{{ site.url }}/img/home.jpg" />
+    <meta property="restaurant:restaurant"  content="{{ site.title }}" />
+  </head>
 
   <body>
     {% include scripts.html %}

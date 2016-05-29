@@ -11,10 +11,13 @@ email: helenohagan55@gmail.com
 facebook_username: AnPancPatisserie
 twitter_username: pabens
 github_username: anpanc
-address:
-  - line: Gortahork
-  - line: Donegal
-  - line: Ireland
+street_address: Market Square
+locality: Gortahork
+region: Donegal
+postal_code: F92 E036
+country_name: Ireland
+latitude: 55.121201
+longitude: -8.132704
 telephone: +353 (87) 398 9812
 copyright: Helen O'Hagan
 
