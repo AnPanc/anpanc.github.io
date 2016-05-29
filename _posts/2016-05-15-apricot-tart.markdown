@@ -6,7 +6,7 @@ categories: Tarts Frangipan
 image: apricottart.jpg
 quantity: 1
 price: 25.00
-currency: €
+currency: EUR
 allergen:
   - name: "Gluten"
     contains: true
