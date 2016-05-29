@@ -8,6 +8,13 @@
      height: 100px;
 }
 
+#fb-like {
+  z-index: 1;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 #bake {
   html,body{height:100%;}
   .carousel,.item,.active{height:100%;}
