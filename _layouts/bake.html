@@ -11,7 +11,7 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}" />
     <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
-    <meta property="restaurant:section" content="Patisserie" />
+    <meta property="restaurant:section" content="{{ site.url }}/menu.html" />
     <meta property="restaurant:variation:price:amount" content="{{ page.price }}" />
   </head>
 
