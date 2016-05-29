@@ -7,10 +7,12 @@
     <!-- OpenGraph and Facebook Tags -->
     <meta property="fb:app_id"                              content="{{ site.facebook_appId }}" />
     <meta property="og:url"                                 content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:type"                                content="restaurant.restaurant" />
+    <meta property="og:type"                                content="restaurant.menu" />
     <meta property="og:title"                               content="{{ site.restaurant_name }}" />
     <meta property="og:description"                         content="{{ site.description }}" />
     <meta property="og:image"                               content="{{ site.url }}/img/home.jpg" />
+    <meta property="restaurant:restaurant"                  content="{{ site.title }}" />
+    <meta property="restaurant:section"                     content="Patisserie" />
     <meta property="restaurant:contact_info:street_address" content="{{ site.street_address }}" />
     <meta property="restaurant:contact_info:locality"       content="{{ site.locality }}" />
     <meta property="restaurant:contact_info:region"         content="{{ site.region }}" />

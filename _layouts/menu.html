@@ -12,7 +12,14 @@
     <meta property="og:title"               content="{{ site.title }}" />
     <meta property="og:description"         content="{{ site.description }}" />
     <meta property="og:image"               content="{{ site.url }}/img/home.jpg" />
-    <meta property="restaurant:restaurant"  content="{{ site.restaurant_name }}" />
+
+    <!-- The Restaurant Menu Section  -->
+    <meta property="restaurant:menu"        content="Patisserie" />
+
+    <!-- The Restaurant Menu Items related to this section (category)  -->
+    {% for post in site.posts %}<meta property="restaurant:item"        content="{{ post.title }}" />
+    {% endfor %}
+
   </head>
 
   <body>
