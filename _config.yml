@@ -25,7 +25,7 @@ google_api_key: AIzaSyAzghuPk263vISYYxSL7z_P38C0LkYxCd0
 google_tracking_id: UA-78122891-1
 
 # Facebook
-facebook_app_id: 608213022666704
+facebook_appId: 608213022666704
 facebook_version: v2.6
 
 # Build settings
