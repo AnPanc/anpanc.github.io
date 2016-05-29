@@ -4,7 +4,9 @@
   {% include head-page.html %}
 
   <body>
+    {% include scripts.html %}
     {% include navigation.html %}
+
     {% include header.html %}
     {% include about.html %}
 
@@ -13,10 +15,8 @@
         {{ content }}
       </div>
     </div>
-
-    {% include footer.html %}
-    {% include scripts.html %}
-
   </body>
+
+  {% include footer.html %}
 
 </html>

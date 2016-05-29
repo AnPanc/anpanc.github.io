@@ -4,6 +4,7 @@
   {% include head-post.html %}
 
   <body>
+    {% include scripts.html %}
     {% include navigation.html %}
 
     <header id="top" class="header" style="background-image: url({{ site.baseurl }}/img/{{ page.image }})">
@@ -15,10 +16,8 @@
 
     {% include bake.html %}
     {% include comments.html %}
-
-    {% include footer.html %}
-    {% include scripts.html %}
-
   </body>
+
+  {% include footer.html %}
 
 </html>
