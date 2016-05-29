@@ -9,7 +9,7 @@
   <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{{ content }}" />
+  <meta property="og:description" content="{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}" />
   <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
 
   <title>{{ site.title }}</title>
