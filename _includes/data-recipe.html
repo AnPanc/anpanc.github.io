@@ -6,12 +6,8 @@
   "name": "{{ page.title }}",
   "image": "{{ site.url }}/img/{{ page.image }}",
   "author": {
-    "@type":"Organisation",
-    "name":"{{ site.title }}",
-    "founder": {
-      "@type":"Person",
-      "name":"{{ site.owner }}"
-    }
+    "@type":"Person",
+    "name":"{{ site.owner }}"
   },
   "datePublished": "{{ page.date }}",
   "description": "{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}",
