@@ -1,8 +1,7 @@
 <footer>
   <section id="contact" class="contact">
     <div class="container col-sm-12 text-center clearfix">
-      <h4><strong>{{ site.owner }}</strong>
-      </h4>
+      <h4><strong>{{ site.owner }}</strong></h4>
       <p>
         {{ site.street_address }}<br>
         {{ site.locality }}<br>
@@ -11,23 +10,19 @@
       </p>
       <ul class="list-unstyled">
         <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
-        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </li>
+        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
       </ul>
       <br>
       <ul class="list-inline">
-        <li>
-          <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
-        </li>
+        <li><a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>
+        <li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
+        <li><a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a></li>
       </ul>
       <hr class="small">
       <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
     </div>
+
+    {% include data-organisation.html %}
+
   </section>
 </footer>

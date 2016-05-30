@@ -1,0 +1,29 @@
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{ site.street_address }}",
+          "addressLocality": "{{ site.locality }}",
+          "addressRegion": "{{ site.region }}",
+          "postalCode": "{{ site.postal_code }}",
+          "addressCountry": "{{ site.country_name }}"
+        },
+        "founder": {
+          "@type":"Person",
+          "name":"{{ site.owner }}"
+        },
+        "url": "{{ site.url }}",
+        "logo": "{{ site.url }}/img/logo.png",
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "telephone": "{{ site.telephone }}",
+          "email": "{{ site.email }}",
+          "contactType": "sales"
+        }]
+      }
+    </script>

@@ -6,8 +6,12 @@
   "name": "{{ page.title }}",
   "image": "{{ site.url }}/img/{{ page.image }}",
   "author": {
-    "@type":"Person",
-    "name":"{{ site.owner }}"
+    "@type":"Organisation",
+    "name":"{{ site.title }}",
+    "founder": {
+      "@type":"Person",
+      "name":"{{ site.owner }}"
+    }
   },
   "datePublished": "{{ page.date }}",
   "description": "{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}",
@@ -19,6 +23,10 @@
   ],
   {% for a in page.allergen %}{% if a.name == 'Gluten' and a.contains == false %}
   "suitableForDiet": "http://schema.org/GlutenFreeDiet",{% endif %}{% endfor %}
-  "recipeInstructions": "1. Mix ingredients.\n 2. Bake until ready.\n 3. Enjoy."
+  "recipeInstructions": [
+    "1. Mix ingredients.",
+    "2. Bake until ready.",
+    "3. Enjoy."
+  ]
 }
 </script>

@@ -1,0 +1,36 @@
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Bakery",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.street_address }}",
+        "addressLocality": "{{ site.locality }}",
+        "addressRegion": "{{ site.region }}",
+        "postalCode": "{{ site.postal_code }}",
+        "addressCountry": "{{ site.country_name }}"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3"
+      },
+      "name": "{{ site.title }}",
+      "openingHours": [
+        "Th-Sa 12:00-18:00",
+        "Su-Mo 12:00-18:00"
+      ],
+      "menu": "{{ site.url }}/menu.html",
+      "priceRange": "$",
+      "servesCuisine": [
+        "Patisserie",
+        "Cake"
+      ],
+      "telephone": "{{ site.telephone }}",
+      "email": "{{ site.email }}",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/img/logo.png"
+    }
+    </script>
+    
