@@ -5,7 +5,9 @@ date:   2016-05-15 17:22:23 +0000
 categories: Tarts
 image: cherrybakewelltart.jpg
 quantity: 1
-price: €2.25
+price: 2.25
+currency: EUR
+baketime: 1H30M
 allergen:
   - name: "Gluten"
     contains: true

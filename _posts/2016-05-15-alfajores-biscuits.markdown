@@ -5,7 +5,9 @@ date:   2016-05-15 17:22:23 +0000
 categories: Cookies
 image: alfajoresbiscuits.jpg
 quantity: 1
-price: €0.50
+price: 0.50
+currency: EUR
+baketime: 1H30M
 allergen:
   - name: "Gluten"
     contains: true

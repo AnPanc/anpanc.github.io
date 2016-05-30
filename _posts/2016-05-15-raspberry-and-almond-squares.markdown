@@ -5,7 +5,9 @@ date:   2016-05-15 17:22:23 +0000
 categories: Traybakes
 image: raspberryalmondsquares.jpg
 quantity: 15
-price: €25.00
+price: 25.00
+currency: EUR
+baketime: 1H30M
 allergen:
   - name: "Gluten"
     contains: true

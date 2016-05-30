@@ -7,6 +7,7 @@ image: apricottart.jpg
 quantity: 1
 price: 25.00
 currency: EUR
+baketime: 1H30M
 allergen:
   - name: "Gluten"
     contains: true

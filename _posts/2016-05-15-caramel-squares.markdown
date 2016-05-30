@@ -5,7 +5,9 @@ date:   2016-05-15 17:22:23 +0000
 categories: Traybakes
 image: caramelsquares.jpg
 quantity: 20
-price: €22.00
+price: 22.00
+currency: EUR
+baketime: 1H30M
 allergen:
   - name: "Gluten"
     contains: true
@@ -24,4 +26,4 @@ ingredients:
   - name: "Golden Syrup"
   - name: "Dark Chocolate"
 ---
-[A buttery biscuit base](https://www.youtube.com/watch?v=GkkEO7hzALY) with a homemade caramel layer covered in dark chocolate.
+A buttery biscuit base with a homemade caramel layer covered in dark chocolate.

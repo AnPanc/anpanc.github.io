@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% for post in site.posts %}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "{{ post.url | prepend: site.url }}",
+      "datePublished": "{{ post.date }}"
+      }
+    },
+    {% endfor %}
+  ]
+}
+</script>

@@ -1,0 +1,29 @@
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "{{ page.title }}",
+  "image": "{{ site.url }}/img/{{ page.image }}",
+  "author": {
+    "@type":"Person",
+    "name":"{{ site.owner }}"
+  },
+  "datePublished": "{{ page.date }}",
+  "description": "{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}",
+  "totalTime": "{{ page.baketime }}",
+  "recipeYield": "{{ page.quantity }} servings",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    {% for allergen in page.allergen %}
+    "{{ allergen.name }}": "{{ allergen.contains }}",{% endfor %}
+    "servingSize": "1 medium serving"
+  },
+  "recipeIngredient": [
+    {% for ingredient in page.ingredients %}
+    "{{ ingredient.name }}",{% endfor %}
+    "A little love."
+  ],
+  "recipeInstructions": "1. Mix ingredients.\n 2. Bake until ready.\n 3. Enjoy."
+}
+</script>
