@@ -17,6 +17,15 @@
     {% for ingredient in page.ingredients %}
     "{{ ingredient.name }}"{% unless forloop.last %},{% endunless %}{% endfor %}
   ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 medium serving"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "3"
+  },
   {% for a in page.allergen %}{% if a.name == 'Gluten' and a.contains == false %}
   "suitableForDiet": "http://schema.org/GlutenFreeDiet",{% endif %}{% endfor %}
   "recipeInstructions": [
