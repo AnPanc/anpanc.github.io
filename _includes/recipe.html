@@ -23,19 +23,19 @@
           <li property="recipeInstructions" >{{ instruction.step }}</li>{% endfor %}
       </div>
 
-      <div id="nutrition" class="container nutrition col-sm-12 text-center clearfix" property="nutrition" vocab="http://schema.org/NutritionInformation" typeof="NutritionInformation">
+      <div id="nutrition" class="container nutrition col-sm-12 text-center clearfix" property="nutrition" vocab="http://schema.org/" typeof="NutritionInformation">
         <h3>Nutrition Information</h3>
         {% for stat in page.nutrition %}
           <li property="{{ stat.name }}" >{{ stat.value }}</li>{% endfor %}
       </div>
 
-      <div id="ratings" class="container nutrition col-sm-12 text-center clearfix" property="aggregateRating" vocab="https://schema.org/AggregateRating" typeof="AggregateRating">
+      <div id="ratings" class="container nutrition col-sm-12 text-center clearfix" property="aggregateRating" vocab="https://schema.org/" typeof="AggregateRating">
         <h3>Ratings</h3>
         <li property="ratingValue">{{ page.ratingValue }} Average Rating</li>
         <li property="reviewCount">{{ page.reviewCount }} Reviews</li>
       </div>
 
-      <div id="author" class="container nutrition col-sm-12 text-center clearfix" property="author" vocab="https://schema.org/Person" typeof="Person">
+      <div id="author" class="container nutrition col-sm-12 text-center clearfix" property="author" vocab="https://schema.org/" typeof="Person">
         <h3>By</h3>
         <li property="name">{{ site.owner }}</li>
       </div>
