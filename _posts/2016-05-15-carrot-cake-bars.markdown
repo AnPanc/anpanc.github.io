@@ -33,5 +33,16 @@ ingredients:
   - name: "Walnuts"
   - name: "Pecans"
   - name: "Icing Sugar"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 Packed with mixed fruit, ground almonds and locally sourced carrots. Flavoured with a cinnamon, orange and nutmeg syrup. Topped with a spiced citrus icing and toasted walnuts and pecans.

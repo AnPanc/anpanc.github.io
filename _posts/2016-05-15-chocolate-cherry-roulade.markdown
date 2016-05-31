@@ -24,5 +24,16 @@ ingredients:
   - name: "Cream"
   - name: "Vanilla"
   - name: "Kirsch Cherries"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 Inspired by the black forrest, this rich and flourless chocolate sponge is filled with kirsch cherries and vanilla cream then rolled.

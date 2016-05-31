@@ -26,5 +26,16 @@ ingredients:
   - name: "Raspberries"
   - name: "Flaked Almonds"
   - name: "Apricot Jam"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 A buttery biscuit base layered with raspberry jam and almond frangipan. Studded with fresh raspberries, glazed with apricot jam ad garnished with toasted flaked almonds.

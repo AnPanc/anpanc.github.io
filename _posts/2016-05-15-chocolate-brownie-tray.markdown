@@ -25,5 +25,16 @@ ingredients:
   - name: "Eggs"
   - name: "Pecans"
   - name: "Walnuts"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 Squidgy chocolate, pecan and walnut brownies with a sweet sugary top crust.

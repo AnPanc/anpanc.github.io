@@ -22,5 +22,16 @@ ingredients:
   - name: "Eggs"
   - name: "Cornflour"
   - name: "Raspberries"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 Fresh raspberries are folded through this meringue giving it a crunchy outer layer and a soft raspberry flavoured centre. An easy dessert option; just add cream and fruit of your choice.

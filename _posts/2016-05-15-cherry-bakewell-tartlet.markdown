@@ -24,5 +24,16 @@ ingredients:
   - name: "Plain Flour"
   - name: "Ground Almonds"
   - name: "Kirsch Cherries"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 Sweet sable pastry case baked with frangipan and studded with kirsch cherries.

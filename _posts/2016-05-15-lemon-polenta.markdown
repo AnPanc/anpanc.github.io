@@ -28,5 +28,16 @@ ingredients:
   - name: "Lemons"
   - name: "Blueberries"
   - name: "Baking Powder"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 An Italian inspired lemon cake using fine polenta and ground almonds as a flour substitute. Packed with fresh blueberries and soaked in a tart lemon and vanilla syrup.

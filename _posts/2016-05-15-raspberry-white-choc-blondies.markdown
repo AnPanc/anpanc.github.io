@@ -25,5 +25,16 @@ ingredients:
   - name: "Orange Zest"
   - name: "Raspberries"
   - name: "Gluten Free Flour"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 A different shade of Brownie. White chocolate and raspberries everywhere.

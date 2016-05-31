@@ -27,5 +27,16 @@ ingredients:
   - name: "White Breadcrumbs"
   - name: "Orange Zest"
   - name: "Hazelnuts"
+nutrition:
+  - name: "calories"
+    value: "200-1000 calories"
+  - name: "servingSize"
+    value: "1 average serving"
+instructions:
+  - step: "1. Mix ingredients."
+  - step: "2. Bake until ready."
+  - step: "3. Enjoy."
+ratingValue: 0
+reviewCount: 0
 ---
 A rich chocolate and hazelnut cake made using 70% cocoa solids topped with a chocolate ganache, hazelnut caramel shards and spun sugar.
