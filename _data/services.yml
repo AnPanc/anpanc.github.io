@@ -6,9 +6,9 @@
   description: Enjoy a Nespresso Coffee or try one of our Suki Teas.
   icon: fa-coffee
 
-- name: Free things!
-  description: Lots of gluten and dairy free options available.
-  icon: fa-exclamation-triangle
+- name: Local
+  description: We use local suppliers and locally foraged seasonal ingredients whenever possible.
+  icon: fa-leaf
 
 - name: Special Events
   description: Birthdays, parties or just Sunday dinner; our outside catering menu suits every occasion.

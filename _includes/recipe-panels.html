@@ -1,0 +1,94 @@
+
+    <section id="recipe" vocab="http://schema.org/" typeof="Recipe" class="recipe">
+
+      <header id="top" class="header" style="background-image: url({{ site.baseurl }}/img/{{ page.image }})">
+        <meta property="image" content="{{ site.url }}/img/{{ page.image }}"/>
+        <div class="text-vertical-center">
+          <h1 property="name" >{{ page.title }}</h1>
+          <h3 property="description" >{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}</h3>
+        </div>
+      </header>
+
+      <div id="fb-like" class="fb-like" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+      <div class="col-sm-12">
+        <hr class="small">
+      </div>
+
+      <div class="col-sm-6">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Ingredients</div>
+            <div class="panel-body">
+              {% for ingredient in page.ingredients %}
+                <li property="recipeIngredient" >{{ ingredient.name }}</li>{% endfor %}
+            </div>
+            <div class="panel-footer">{{ page.title }}</div>
+          </div>
+        </div> <!-- /.panel container -->
+
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Nutrition</div>
+            <div class="panel-body">
+              {% for stat in page.nutrition %}
+                <li property="{{ stat.name }}" >{{ stat.value }}</li>{% endfor %}
+            </div>
+            <div class="panel-footer">Guideline Information</span></div>
+          </div>
+        </div> <!-- /.panel container -->
+
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Ratings</div>
+            <div class="panel-body">
+              <li property="ratingValue">{{ page.ratingValue }} Average Rating</li>
+              <li property="reviewCount">{{ page.reviewCount }} Reviews</li>
+            </div>
+            <div class="panel-footer">This is an aggregate rating of online reviews.</div>
+          </div>
+        </div> <!-- /.panel container -->
+      </div> <!-- /.column container -->
+
+      <div class="col-sm-6">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Instructions</div>
+            <div class="panel-body">
+              {% for instruction in page.instructions %}
+                <li property="recipeInstructions" >{{ instruction.step }}</li>{% endfor %}
+            </div>
+            <div class="panel-footer"><span property="name">{{ site.owner }}</span></div>
+          </div>
+        </div> <!-- /.panel container -->
+
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Bake Details</div>
+            <div class="panel-body">
+              <li property="totalTime">PT{{ page.baketime }}</li>
+              <li property="recipeYield">{{ page.quantity }} servings</li>
+              <li property="datePublished">{{ page.date | date: "%-d %B %Y" }}</li>
+            </div>
+            <div class="panel-footer">Aggregate</div>
+          </div>
+        </div> <!-- /.panel container -->
+
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Allergen Information</div>
+            <div class="panel-body">
+              {% for allergen in page.allergen %}
+                {% if allergen.contains == true %}
+                  <p>Contains {{ allergen.name }} <i class="fa fa-check-square-o" aria-hidden="true" style="color:green"></i></p>
+                {% else %}
+                  <p>Contains {{ allergen.name }} <i class="fa fa-times" aria-hidden="true" style="color:red"></i></p>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="panel-footer"><small><i class="fa fa-exclamation-triangle"></i> Our products are all created in the same kitchen. This means that all of them may contain traces of gluten, eggs, dairy or nuts.</small></div>
+          </div>
+        </div> <!-- /.panel container -->
+      </div> <!-- /.column container -->
+
+    </section>

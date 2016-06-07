@@ -21,6 +21,9 @@ latitude: 55.121201
 longitude: -8.132704
 telephone: +353 (87) 398 9812
 copyright: Helen O'Hagan
+price_range: €2 to €30
+review_count: 3
+aggregate_rating: 5
 
 # Google Maps API
 google_api_key: AIzaSyAzghuPk263vISYYxSL7z_P38C0LkYxCd0

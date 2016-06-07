@@ -1,0 +1,14 @@
+- day: Monday
+  time: 12:00-18:00
+- day: Tuesday
+  time: Closed
+- day: Wednesday
+  time: Closed
+- day: Thursday
+  time: 12:00-18:00
+- day: Friday
+  time: 12:00-18:00
+- day: Saturday
+  time: 12:00-18:00
+- day: Sunday
+  time: 12:00-18:00

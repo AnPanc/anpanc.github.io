@@ -42,10 +42,9 @@
 
       <div id="bake" class="container nutrition col-sm-12 text-center clearfix">
         <h3>Bake Details</h3>
-        <li property="datePublished">{{ page.date }}</li>
         <li property="totalTime">PT{{ page.baketime }}</li>
         <li property="recipeYield">{{ page.quantity }} servings</li>
-        <li property="datePublished">{{ page.date }}</li>
+        <li property="datePublished">{{ page.date | date: "%-d %B %Y" }}</li>
       </div>
 
       <div id="allergen" class="container allergen col-sm-12 text-center clearfix">
