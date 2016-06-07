@@ -30,7 +30,7 @@
         <div class="col-sm-12">
           <div class="panel panel-primary">
             <div class="panel-heading">Nutrition</div>
-            <div class="panel-body">
+            <div class="panel-body" property="nutrition" vocab="http://schema.org/" typeof="NutritionInformation">
               {% for stat in page.nutrition %}
                 <li property="{{ stat.name }}" >{{ stat.value }}</li>{% endfor %}
             </div>
@@ -41,7 +41,7 @@
         <div class="col-sm-12">
           <div class="panel panel-primary">
             <div class="panel-heading">Ratings</div>
-            <div class="panel-body">
+            <div class="panel-body" property="aggregateRating" vocab="https://schema.org/" typeof="AggregateRating">
               <li property="ratingValue">{{ page.ratingValue }} Average Rating</li>
               <li property="reviewCount">{{ page.reviewCount }} Reviews</li>
             </div>
@@ -58,7 +58,7 @@
               {% for instruction in page.instructions %}
                 <li property="recipeInstructions" >{{ instruction.step }}</li>{% endfor %}
             </div>
-            <div class="panel-footer"><span property="name">{{ site.owner }}</span></div>
+            <div class="panel-footer" property="author" vocab="https://schema.org/" typeof="Person"><span property="name">{{ site.owner }}</span></div>
           </div>
         </div> <!-- /.panel container -->
 
