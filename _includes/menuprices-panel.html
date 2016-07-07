@@ -14,7 +14,10 @@
                   <div class="panel panel-primary">
                     <div class="panel-heading">{{ post.title }}</div>
                     <div class="panel-body"><img src="../img/{{ post.image }}" class="img-responsive" style="width:100%" alt="{{ post.title }}"></div>
-                    <div class="panel-footer">{% if post.currency == "EUR" %}€{% endif %}{{ post.price }}</div>
+                    {% assign price_split = post.price | round: 2 | split: "." %}
+                    {% assign integral = price_split[0] %}
+                    {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                    <div class="panel-footer">{% if post.currency == "EUR" %}€{% endif %}{{ integral }}.{{ fractional }}</div>
                   </div>
                 </div> <!-- /.col-lg-4 -->
               {% endif %} <!-- not null -->
