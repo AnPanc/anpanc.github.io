@@ -22,9 +22,11 @@
     <meta property="restaurant:contact_info:website"        content="{{ site.url }}" />
     <meta property="place:location:latitude"                content="{{ site.latitude }}" />
     <meta property="place:location:longitude"               content="{{ site.longitude }}" />
+
+    {% include scripts.html %}
+
   </head>
   <body>
-    {% include scripts.html %}
     {% include navigation.html %}
 
     {% include header.html %}
