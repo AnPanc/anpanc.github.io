@@ -1,16 +1,16 @@
 ---
 layout: bake
-title:  "Cherry Bakewell Tartlets"
+title:  "Hazelnut &amp; Raspberry Roulade"
 date:   2016-05-15 17:22:23 +0000
-categories: Tarts Frangipan
-image: cherrybakewelltart.jpg
+categories: Cakes
+image: raspberryroulade.jpg
 quantity: 1
-price: 2.25
+price: 15.00
 currency: EUR
 baketime: 1H30M
 allergen:
   - name: "Gluten"
-    contains: true
+    contains: false
   - name: "Dairy"
     contains: true
   - name: "Eggs"
@@ -18,12 +18,13 @@ allergen:
   - name: "Nuts"
     contains: true
 ingredients:
-  - name: "Butter"
-  - name: "Sugar"
+  - name: "Dark Chocolate"
   - name: "Eggs"
-  - name: "Plain Flour"
-  - name: "Ground Almonds"
-  - name: "Kirsch Cherries"
+  - name: "Sugar"
+  - name: "Cream"
+  - name: "Vanilla"
+  - name: "Hazelnuts"
+  - name: "Raspberries"
 nutrition:
   - name: "calories"
     value: "200-1000 calories"
@@ -36,4 +37,4 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
-Sweet sable pastry case baked with frangipan and studded with kirsch cherries.
+This rich and flourless chocolate sponge is filled with hazelnuts, raspberries and vanilla cream then rolled.

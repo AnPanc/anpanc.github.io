@@ -1,11 +1,11 @@
 ---
 layout: bake
-title:  "Raspberry Pavlova Base"
+title:  "Chocolate Truffle Torte"
 date:   2016-05-15 17:22:23 +0000
-categories: Meringues
-image: placeholder.jpg
+categories: Cakes
+image: chocolatetruffletorte.jpg
 quantity: 1
-price: 15.00
+price: 25.00
 currency: EUR
 baketime: 1H30M
 allergen:
@@ -16,12 +16,15 @@ allergen:
   - name: "Eggs"
     contains: true
   - name: "Nuts"
-    contains: false
+    contains: true
 ingredients:
-  - name: "Sugar"
+  - name: "Dark Chocolate"
+  - name: "Butter"
+  - name: "Caster Sugar"
   - name: "Eggs"
-  - name: "Cornflour"
-  - name: "Raspberries"
+  - name: "Vanilla"
+  - name: "Orange Zest"
+  - name: "Cream"
 nutrition:
   - name: "calories"
     value: "200-1000 calories"
@@ -34,4 +37,4 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
-Fresh raspberries are folded through this meringue giving it a crunchy outer layer and a soft raspberry flavoured centre. An easy dessert option; just add cream and fruit of your choice.
+The ultimate chocolate cake with half a kilo of dark chocolate! A rich chocolate truffle tart made using 70% cocoa solids. Gluten free. Add hazelnuts and red berries for an extra €5. The perfect dinner party dessert. 

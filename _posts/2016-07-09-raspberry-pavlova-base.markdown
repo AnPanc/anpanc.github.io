@@ -1,29 +1,26 @@
 ---
 layout: bake
-title:  "Hazelnut &amp; Raspberry Roulade"
+title:  "Raspberry Pavlova Base"
 date:   2016-05-15 17:22:23 +0000
-categories: Cakes
-image: placeholder.jpg
+categories: Meringues
+image: raspberrymeringue.jpg
 quantity: 1
 price: 15.00
 currency: EUR
 baketime: 1H30M
 allergen:
   - name: "Gluten"
-    contains: false
+    contains: true
   - name: "Dairy"
     contains: true
   - name: "Eggs"
     contains: true
   - name: "Nuts"
-    contains: true
+    contains: false
 ingredients:
-  - name: "Dark Chocolate"
-  - name: "Eggs"
   - name: "Sugar"
-  - name: "Cream"
-  - name: "Vanilla"
-  - name: "Hazelnuts"
+  - name: "Eggs"
+  - name: "Cornflour"
   - name: "Raspberries"
 nutrition:
   - name: "calories"
@@ -37,4 +34,4 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
-This rich and flourless chocolate sponge is filled with hazelnuts, raspberries and vanilla cream then rolled.
+Fresh raspberries are folded through this meringue giving it a crunchy outer layer and a soft raspberry flavoured centre. An easy dessert option; just add cream and fruit of your choice.

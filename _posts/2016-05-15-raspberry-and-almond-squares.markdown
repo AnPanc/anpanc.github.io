@@ -2,7 +2,7 @@
 layout: bake
 title:  "Raspberry &amp; Almond Squares"
 date:   2016-05-15 17:22:23 +0000
-categories: Traybakes
+categories: Traybakes Frangipan
 image: raspberryalmondsquares.jpg
 quantity: 15
 price: 25.00

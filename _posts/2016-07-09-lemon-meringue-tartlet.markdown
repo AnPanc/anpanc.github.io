@@ -1,9 +1,9 @@
 ---
 layout: bake
-title:  "Cherry Bakewell Tartlets"
+title:  "Lemon Meringue Tartlets"
 date:   2016-05-15 17:22:23 +0000
-categories: Tarts Frangipan
-image: cherrybakewelltart.jpg
+categories: Tarts Meringues
+image: lemonmerringue.jpg
 quantity: 1
 price: 2.25
 currency: EUR
@@ -16,14 +16,15 @@ allergen:
   - name: "Eggs"
     contains: true
   - name: "Nuts"
-    contains: true
+    contains: false
 ingredients:
-  - name: "Butter"
   - name: "Sugar"
-  - name: "Eggs"
   - name: "Plain Flour"
-  - name: "Ground Almonds"
-  - name: "Kirsch Cherries"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Lemons"
+  - name: "Cornflour"
+  - name: "Vinegar"
 nutrition:
   - name: "calories"
     value: "200-1000 calories"
@@ -36,4 +37,4 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
-Sweet sable pastry case baked with frangipan and studded with kirsch cherries.
+Sweet sable pastry case filled with a zesty lemon curd and topped with a meringue shell
