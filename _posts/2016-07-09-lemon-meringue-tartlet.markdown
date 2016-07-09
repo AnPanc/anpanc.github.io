@@ -1,7 +1,7 @@
 ---
 layout: bake
 title:  "Lemon Meringue Tartlets"
-date:   2016-05-15 17:22:23 +0000
+date:   2016-07-09 12:00:00 +0000
 categories: Tarts Meringues
 image: lemonmerringue.jpg
 quantity: 1

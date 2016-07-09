@@ -1,7 +1,7 @@
 ---
 layout: bake
 title:  "Chocolate Truffle Torte"
-date:   2016-05-15 17:22:23 +0000
+date:   2016-07-09 12:00:00 +0000
 categories: Cakes
 image: chocolatetruffletorte.jpg
 quantity: 1
@@ -37,4 +37,4 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
-The ultimate chocolate cake with half a kilo of dark chocolate! A rich chocolate truffle tart made using 70% cocoa solids. Gluten free. Add hazelnuts and red berries for an extra €5. The perfect dinner party dessert. 
+The ultimate chocolate cake with half a kilo of dark chocolate! A rich chocolate truffle tart made using 70% cocoa solids. Gluten free. Add hazelnuts and red berries for an extra €5. The perfect dinner party dessert.
