@@ -3,47 +3,16 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# restaurant: http://ogp.me/ns/restaurant#">
     {% include generic-headers.html %}
     {% include stylesheets.html %}
-
-    <!-- OpenGraph Tags -->
-    <meta property="fb:app_id" content="{{ site.facebook_appId }}" />
-    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:type" content="restaurant.menu_item" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:description" content="{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}" />
-    <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
-    <meta property="restaurant:section" content="{{ site.url }}/menu.html" />
-    <meta property="restaurant:variation:price:amount" content="{{ page.price }}" />
-    <meta property="restaurant:variation:price:currency" content="{{ page.currency }}" />
+    {% include opengraph-menu-item.html %}
+    {% include scripts.html %}
   </head>
 
   <body>
-    {% include scripts.html %}
     {% include navigation.html %}
-
-    <section vocab="http://schema.org/" typeof="Recipe" class="recipe">
-
-      <header class="header" style="background-image: url({{ site.baseurl }}/img/{{ page.image }})">
-        <meta property="image" content="{{ site.url }}/img/{{ page.image }}"/>
-        <div class="text-vertical-center">
-          <h1 property="name" >{{ page.title }}</h1>
-          <h3 property="description" >{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}</h3>
-        </div>
-      </header>
-
-      <div id="fb-like" class="fb-like" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-
-    </section>
-
-    <div class="col-sm-12">
-      <hr class="small">
-    </div>
-
+    {% include recipe.html %}
     {% include recipe-panels.html %}
-
     {% include comments.html %}
-
   </body>
 
   {% include footer.html %}
-
 </html>

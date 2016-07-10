@@ -1,63 +1,63 @@
-<footer>
-  <section id="contact" class="contact" vocab="http://schema.org/" typeof="Bakery">
-    <div class="container col-sm-12 text-center small">
+  <footer>
+    <section id="contact" class="contact" vocab="http://schema.org/" typeof="Bakery">
+      <div class="container col-sm-12 text-center small">
 
-      <hr class="small">
+        <hr class="small">
 
-      <h4><strong><span property="name">{{ site.title }}</span></strong></h4>
+        <h4><strong><span property="name">{{ site.title }}</span></strong></h4>
 
-      <h5><strong>{{ site.owner }}</strong></h5>
-      <div property="address" vocab="http://schema.org/" typeof="PostalAddress">
-        <p>
-          <span property="streetAddress">{{ site.street_address }}</span><br>
-          <span property="addressLocality">{{ site.locality }}</span><br>
-          <span property="addressRegion">{{ site.region }}</span><br>
-          <span property="postalCode">{{ site.postal_code }}</span><br>
-          <span property="addressCountry">{{ site.country_name }}</span><br>
-        </p>
+        <h5><strong>{{ site.owner }}</strong></h5>
+        <div property="address" vocab="http://schema.org/" typeof="PostalAddress">
+          <p>
+            <span property="streetAddress">{{ site.street_address }}</span><br>
+            <span property="addressLocality">{{ site.locality }}</span><br>
+            <span property="addressRegion">{{ site.region }}</span><br>
+            <span property="postalCode">{{ site.postal_code }}</span><br>
+            <span property="addressCountry">{{ site.country_name }}</span><br>
+          </p>
+        </div>
+        <ul class="list-unstyled">
+          {% for cuisine in site.data.cuisine %}
+            {% if forloop.first %}{% elsif forloop.last %} &amp; {% else %}, {% endif %}<span property="servesCuisine">{{ cuisine.name }}</span>
+          {% endfor %}
+          </li>
+          <li><i class="fa fa-money fa-fw"></i> Prices from <span property="priceRange">{{ site.price_range }}</span></li>
+          <li><i class="fa fa-phone fa-fw"></i> <span property="telephone">{{ site.telephone }}</span></li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <span property="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span></li>
+        </ul>
+
+        <hr class="small">
+
+        <h5><strong>Opening Hours</strong></h5>
+        <table class="table table-condensed table-responsive table-borderless">
+          {% for hours in site.data.hours %}
+            <tr property="openingHours"><td class="text-right table-borderless">{{ hours.day }}</td><td class="text-left table-borderless">{{ hours.time }}</span></td></tr>
+          {% endfor %}
+        </table>
+
+        <div property="aggregateRating" vocab="https://schema.org/" typeof="AggregateRating">
+          Average Rating of <span property="ratingValue">{{ site.aggregate_rating }}</span>
+          from <span property="reviewCount">{{ site.review_count }}</span> online reviews<br>
+        </div>
+
+        <div property="contactPoint" vocab="https://schema.org/" typeof="ContactPoint">
+          Contact <span property="contactType">Sales</span> on <span property="telephone">{{ site.telephone }}</span> or <span property="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+        </div>
+
+        <hr class="small">
+
+        <ul class="list-inline">
+          <li><a href="{{ site.url }}" property="url"><i class="fa fa-home fa-fw fa-3x"></i></a></span></li>
+          <li><a href="{{ site.url }}/menu.html" property="menu"><i class="fa fa-cutlery fa-fw fa-3x"></i></a></span></li>
+          <li><a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>
+          <li><a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a></li>
+        </ul>
+
+        <hr class="small">
+
+        <img src="/img/logo.png" alt="{{ site.title }}" style="min-height:50px;height:50px;" property="logo">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} {{ site.time | date: '%Y' }}</p>
+
       </div>
-      <ul class="list-unstyled">
-        {% for cuisine in site.data.cuisine %}
-          {% if forloop.first %}{% elsif forloop.last %} &amp; {% else %}, {% endif %}<span property="servesCuisine">{{ cuisine.name }}</span>
-        {% endfor %}
-        </li>
-        <li><i class="fa fa-money fa-fw"></i> Prices from <span property="priceRange">{{ site.price_range }}</span></li>
-        <li><i class="fa fa-phone fa-fw"></i> <span property="telephone">{{ site.telephone }}</span></li>
-        <li><i class="fa fa-envelope-o fa-fw"></i>  <span property="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span></li>
-      </ul>
-
-      <hr class="small">
-
-      <h5><strong>Opening Hours</strong></h5>
-      <table class="table table-condensed table-responsive table-borderless">
-        {% for hours in site.data.hours %}
-          <tr property="openingHours"><td class="text-right table-borderless">{{ hours.day }}</td><td class="text-left table-borderless">{{ hours.time }}</span></td></tr>
-        {% endfor %}
-      </table>
-
-      <div property="aggregateRating" vocab="https://schema.org/" typeof="AggregateRating">
-        Average Rating of <span property="ratingValue">{{ site.aggregate_rating }}</span>
-        from <span property="reviewCount">{{ site.review_count }}</span> online reviews<br>
-      </div>
-
-      <div property="contactPoint" vocab="https://schema.org/" typeof="ContactPoint">
-        Contact <span property="contactType">Sales</span> on <span property="telephone">{{ site.telephone }}</span> or <span property="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
-      </div>
-
-      <hr class="small">
-
-      <ul class="list-inline">
-        <li><a href="{{ site.url }}" property="url"><i class="fa fa-home fa-fw fa-3x"></i></a></span></li>
-        <li><a href="{{ site.url }}/menu.html" property="menu"><i class="fa fa-cutlery fa-fw fa-3x"></i></a></span></li>
-        <li><a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>
-        <li><a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a></li>
-      </ul>
-
-      <hr class="small">
-
-      <img src="/img/logo.png" alt="{{ site.title }}" style="min-height:50px;height:50px;" property="logo">
-      <p class="text-muted">Copyright &copy; {{ site.copyright }} {{ site.time | date: '%Y' }}</p>
-
-    </div>
-  </section>
-</footer>
+    </section>
+  </footer>

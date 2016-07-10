@@ -4,29 +4,12 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# restaurant: http://ogp.me/ns/restaurant#">
     {% include generic-headers.html %}
     {% include stylesheets.html %}
-
-    <!-- OpenGraph Tags -->
-    <meta property="fb:app_id"              content="{{ site.facebook_appId }}" />
-    <meta property="og:url"                 content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:type"                content="restaurant.menu" />
-    <meta property="og:title"               content="{{ site.title }} Menu" />
-    <meta property="og:description"         content="{{ site.description }}" />
-    <meta property="og:image"               content="{{ site.url }}/img/home.jpg" />
-    <meta property="restaurant:restaurant"  content="{{ site.url }}" />
-
-    <!-- The Restaurant Menu Section  -->
-    <meta property="restaurant:menu"        content="Patisserie" />
-
-    <!-- The Restaurant Menu Items related to this section (category)  -->
-    {% for post in site.posts %}<meta property="restaurant:item"        content="{{ post.title }}" />
-    {% endfor %}
-
+    {% include opengraph-menu.html %}
+    {% include scripts.html %}
   </head>
 
   <body>
-    {% include scripts.html %}
     {% include navigation.html %}
-
     {% include about.html %}
     {% include menuprices.html %}
   </body>

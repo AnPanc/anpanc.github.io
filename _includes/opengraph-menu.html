@@ -1,0 +1,16 @@
+
+    <!-- OpenGraph and Facebook Tags -->
+    <meta property="fb:app_id"              content="{{ site.facebook_appId }}" />
+    <meta property="og:url"                 content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:type"                content="restaurant.menu" />
+    <meta property="og:title"               content="{{ site.title }} Menu" />
+    <meta property="og:description"         content="{{ site.description }}" />
+    <meta property="og:image"               content="{{ site.url }}/img/home.jpg" />
+    <meta property="restaurant:restaurant"  content="{{ site.url }}" />
+
+    <!-- The Restaurant Menu Section  -->
+    <meta property="restaurant:menu"        content="Patisserie" />
+
+    <!-- The Restaurant Menu Items related to this section (category)  -->
+    {% for post in site.posts %}<meta property="restaurant:item"        content="{{ post.title }}" />
+    {% endfor %}

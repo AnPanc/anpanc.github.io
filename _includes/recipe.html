@@ -1,7 +1,7 @@
 
-    <section id="recipe" vocab="http://schema.org/" typeof="Recipe" class="recipe">
+    <section vocab="http://schema.org/" typeof="Recipe" class="recipe">
 
-      <header id="top" class="header" style="background-image: url({{ site.baseurl }}/img/{{ page.image }})">
+      <header class="header" style="background-image: url({{ site.baseurl }}/img/{{ page.image }})">
         <meta property="image" content="{{ site.url }}/img/{{ page.image }}"/>
         <div class="text-vertical-center">
           <h1 property="name" >{{ page.title }}</h1>
@@ -11,51 +11,8 @@
 
       <div id="fb-like" class="fb-like" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
-      <div id="ingredients" class="container ingredients col-sm-12 text-center clearfix">
-        <h3>Ingredients</h3>
-        {% for ingredient in page.ingredients %}
-          <li property="recipeIngredient" >{{ ingredient.name }}</li>{% endfor %}
-      </div>
-
-      <div id="instructions" class="container instructions col-sm-12 text-center clearfix">
-        <h3>Instructions</h3>
-        {% for instruction in page.instructions %}
-          <li property="recipeInstructions" >{{ instruction.step }}</li>{% endfor %}
-      </div>
-
-      <div id="nutrition" class="container nutrition col-sm-12 text-center clearfix" property="nutrition" vocab="http://schema.org/" typeof="NutritionInformation">
-        <h3>Nutrition Information</h3>
-        {% for stat in page.nutrition %}
-          <li property="{{ stat.name }}" >{{ stat.value }}</li>{% endfor %}
-      </div>
-
-      <div id="ratings" class="container nutrition col-sm-12 text-center clearfix" property="aggregateRating" vocab="https://schema.org/" typeof="AggregateRating">
-        <h3>Ratings</h3>
-        <li property="ratingValue">{{ page.ratingValue }} Average Rating</li>
-        <li property="reviewCount">{{ page.reviewCount }} Reviews</li>
-      </div>
-
-      <div id="author" class="container nutrition col-sm-12 text-center clearfix" property="author" vocab="https://schema.org/" typeof="Person">
-        <h3>By</h3>
-        <li property="name">{{ site.owner }}</li>
-      </div>
-
-      <div id="bake" class="container nutrition col-sm-12 text-center clearfix">
-        <h3>Bake Details</h3>
-        <li property="totalTime">PT{{ page.baketime }}</li>
-        <li property="recipeYield">{{ page.quantity }} servings</li>
-        <li property="datePublished">{{ page.date | date: "%-d %B %Y" }}</li>
-      </div>
-
-      <div id="allergen" class="container allergen col-sm-12 text-center clearfix">
-        <h3>Allergen Information</h3>
-        {% for allergen in page.allergen %}
-          {% if allergen.contains == true %}
-            <p>Contains {{ allergen.name }} <i class="fa fa-check-square-o" aria-hidden="true" style="color:green"></i></p>
-          {% else %}
-            <p>Contains {{ allergen.name }} <i class="fa fa-times" aria-hidden="true" style="color:red"></i></p>
-          {% endif %}
-        {% endfor %}
-        <p><small><i class="fa fa-exclamation-triangle"></i> Our products are all created in the same kitchen. This means that all of them may contain traces of gluten, eggs, dairy or nuts.</small></p>
-      </div>
     </section>
+
+    <div class="col-sm-12">
+      <hr class="small">
+    </div>

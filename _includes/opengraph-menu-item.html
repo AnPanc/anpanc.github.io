@@ -1,0 +1,11 @@
+
+    <!-- OpenGraph and Facebook Tags -->
+    <meta property="fb:app_id" content="{{ site.facebook_appId }}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:type" content="restaurant.menu_item" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ content | remove: '<p>' | remove: '</p>' | strip_newlines }}" />
+    <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
+    <meta property="restaurant:section" content="{{ site.url }}/menu.html" />
+    <meta property="restaurant:variation:price:amount" content="{{ page.price }}" />
+    <meta property="restaurant:variation:price:currency" content="{{ page.currency }}" />
