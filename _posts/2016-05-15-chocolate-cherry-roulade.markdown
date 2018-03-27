@@ -3,7 +3,7 @@ layout: bake
 title:  "Chocolate Cherry Roulade"
 date:   2016-05-15 17:22:23 +0000
 categories: Cakes
-image: placeholder.jpg
+image: chocolatecherryroulade.jpg
 quantity: 1
 price: 15.00
 currency: EUR
@@ -36,4 +36,5 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
+
 Inspired by the black forrest, this rich and flourless chocolate sponge is filled with kirsch cherries and vanilla cream then rolled.

@@ -1,16 +1,14 @@
 ---
 layout: bake
-title:  "Chocolate Roulade"
-date:   2016-05-15 17:22:23 +0000
+title:  "Rum & Raisin Bundt Cake with Rum Caramel"
+date:   2018-03-06 12:00:00 +0000
 categories: Cakes
-image: chocolateroulade.jpg
+image: rumandraisinbundt.jpg
 quantity: 1
-price: 15.00
-currency: EUR
 baketime: 1H30M
 allergen:
   - name: "Gluten"
-    contains: false
+    contains: true
   - name: "Dairy"
     contains: true
   - name: "Eggs"
@@ -18,10 +16,13 @@ allergen:
   - name: "Nuts"
     contains: false
 ingredients:
-  - name: "Dark Chocolate"
-  - name: "Eggs"
   - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
+  - name: "Eggs"
+  - name: "Sultanas"
   - name: "Cream"
+  - name: "Jamaican Rum"
   - name: "Vanilla"
 nutrition:
   - name: "calories"
@@ -36,4 +37,4 @@ ratingValue: 0
 reviewCount: 0
 ---
 
-This rich and flourless chocolate sponge is filled with vanilla cream then rolled.
+Cake twist on an old icecream favourite. Sultanas soaked in rum and added to a brown sugar sponge baked in a Bundt tin and topped with rum infused caramel sauce. Delicious served hot with vanilla icecream. Also available as mini bundts.

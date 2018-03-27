@@ -1,12 +1,10 @@
 ---
 layout: bake
-title:  "Chocolate & Pecan Brownies"
-date:   2016-05-15 17:22:23 +0000
-categories: Traybakes
-image: chocolatebrownie.jpg
-quantity: 20
-price: 30
-currency: EUR
+title:  "Chocolate Fudge & Berry Cake"
+date:   2018-03-06 12:00:00 +0000
+categories: Cakes
+image: chocolatefudgeandberrycake.jpg
+quantity: 1
 baketime: 1H30M
 allergen:
   - name: "Gluten"
@@ -16,15 +14,16 @@ allergen:
   - name: "Eggs"
     contains: true
   - name: "Nuts"
-    contains: true
+    contains: false
 ingredients:
+  - name: "Sugar"
   - name: "Gluten Free Flour"
   - name: "Butter"
-  - name: "Dark Chocolate"
-  - name: "Sugar"
   - name: "Eggs"
-  - name: "Pecans"
-  - name: "Walnuts"
+  - name: "Dark Chocolate"
+  - name: "Condensed Milk"
+  - name: "Cacao Powder"
+  - name: "Vanilla"
 nutrition:
   - name: "calories"
     value: "200-1000 calories"
@@ -38,4 +37,4 @@ ratingValue: 0
 reviewCount: 0
 ---
 
-Squidgy chocolate, pecan and walnut brownies with a sweet sugary top crust.
+Perfect as a celebration cake! A chocolate fudge cake slathered in chocolate icing and garnished with fresh berries. Add an optional message of your choice.

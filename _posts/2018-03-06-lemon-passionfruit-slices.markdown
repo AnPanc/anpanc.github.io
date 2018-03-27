@@ -1,30 +1,28 @@
 ---
 layout: bake
-title:  "Chocolate & Pecan Brownies"
-date:   2016-05-15 17:22:23 +0000
+title:  "Lemon Passionfruit Curd Slices"
+date:   2018-03-06 12:00:00 +0000
 categories: Traybakes
-image: chocolatebrownie.jpg
-quantity: 20
-price: 30
-currency: EUR
+image: lemonpassionfruitcurdslices.jpg
+quantity: 1
 baketime: 1H30M
 allergen:
   - name: "Gluten"
-    contains: false
+    contains: true
   - name: "Dairy"
     contains: true
   - name: "Eggs"
     contains: true
   - name: "Nuts"
-    contains: true
+    contains: false
 ingredients:
-  - name: "Gluten Free Flour"
-  - name: "Butter"
-  - name: "Dark Chocolate"
   - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
   - name: "Eggs"
-  - name: "Pecans"
-  - name: "Walnuts"
+  - name: "Lemons"
+  - name: "Passionfruit"
+  - name: "Vanilla"
 nutrition:
   - name: "calories"
     value: "200-1000 calories"
@@ -38,4 +36,4 @@ ratingValue: 0
 reviewCount: 0
 ---
 
-Squidgy chocolate, pecan and walnut brownies with a sweet sugary top crust.
+Homemade lemon and passionfruit curd piped onto a buttery biscuit base with a traditional sponge topping.

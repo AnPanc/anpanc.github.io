@@ -1,12 +1,10 @@
 ---
 layout: bake
-title:  "Plain Pavlova Base"
-date:   2016-05-15 17:22:23 +0000
-categories: Meringues
-image: placeholder.jpg
+title:  "Cherry Bakewell Slices"
+date:   2018-03-06 12:00:00 +0000
+categories: Traybakes
+image: cherrybakewellslices.jpg
 quantity: 1
-price: 12.00
-currency: EUR
 baketime: 1H30M
 allergen:
   - name: "Gluten"
@@ -16,11 +14,15 @@ allergen:
   - name: "Eggs"
     contains: true
   - name: "Nuts"
-    contains: false
+    contains: true
 ingredients:
   - name: "Sugar"
+  - name: "Plain Flour"
+  - name: "Butter"
   - name: "Eggs"
-  - name: "Cornflour"
+  - name: "Lemons"
+  - name: "Cherries"
+  - name: "Ground Almonds"
 nutrition:
   - name: "calories"
     value: "200-1000 calories"
@@ -33,4 +35,5 @@ instructions:
 ratingValue: 0
 reviewCount: 0
 ---
-This fresh meringue has a crunchy outer layer and a soft chewy centre. An easy dessert option; just add cream and fruit of your choice.
+
+Sweet shortbread base baked with frangipan and studded with kirsch cherries.
